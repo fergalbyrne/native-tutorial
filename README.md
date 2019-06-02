@@ -1,10 +1,14 @@
 # native-tutorial
 
-FIXME: description
+A tutorial for setting up a mobile app project in ClojureScript.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+We'll base our setup on [re-natal](https://github.com/drapanjanas/re-natal). **Important:** ensure you have installed all `re-natal` dependencies before creating your project. In particular, make sure your `npm` and `node.js` versions are up-to-date.
+
+Once you've followed the installation instructions for `re-natal`, use the following to create your new project:
+
+    $ re-natal init FutureApp -i reagent6
 
 ## Usage
 
